@@ -1,8 +1,8 @@
 {
-  "name": "groupme-bot-starter",
+  "name": "groupme-nba-bot",
   "version": "1.0.0",
-  "description": "Starter code for the GroupMe bot workshop at ACM@UC",
-  "author": "Noah Bass <noah@noahbass.com>",
+  "description": "get nba stats in groupme",
+  "author": "ryan mcnierney",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,19 +12,17 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
     "director": "1.2.8",
     "dotenv": "2.0.0",
+    "nba": "^4.5.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
     "winston": "2.2.0"
   },
   "devDependencies": {
     "localtunnel": "1.8.1",
     "promptly": "2.1.0"
-  },
-  "homepage": "https://github.com/acmatuc/groupme-bot-starter",
-  "bugs": "https://github.com/acmatuc/groupme-bot-starter/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/acmatuc/groupme-bot-starter.git"
-  },
-  "license": "MIT"
+  }
 }
