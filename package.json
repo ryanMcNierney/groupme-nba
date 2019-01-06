@@ -19,6 +19,7 @@
     "nba": "^4.5.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
+    "string-table": "^0.1.5",
     "winston": "2.2.0"
   },
   "devDependencies": {
