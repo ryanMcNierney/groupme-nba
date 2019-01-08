@@ -6,6 +6,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "tweet": "node lib/twitter.js",
     "dev": "node app.js --dev"
   },
   "engines": {
